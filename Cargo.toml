@@ -1,0 +1,27 @@
+[package]
+name = "verifiable_delay_cipher"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ark-ff = { version = "^0.4.2" }
+ark-ec = { version = "0.4.2" }
+ark-bls12-381 = { version = "0.4" }
+ark-r1cs-std = { version = "0.4" }
+ark-std = { version = "0.4" }
+ark-snark = { version = "0.4" }
+ark-relations = { version = "0.4" }
+ark-serialize = "0.4.0"
+ark-groth16 = "^0.4.0"
+ark-crypto-primitives = "0.4.0"
+rand = "0.8"
+sha2 = "0.10"
+hex-literal = "0.3.1"
+crypto-bigint = "0.5.5"
+num-prime = "0.4.4"
+num-bigint = "0.4.5"
+rug = "1.24.1"
+
+rsa = { path = "../versa_mod/rsa" }
